@@ -53,10 +53,15 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-snapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>		
+            <id>percival</id>
+			<name>Percival Nexus</name>
+			<url>http://nexus.percivaleng.com:8081/nexus/repository/maven-snapshots</url>
+        </snapshotRepository>
+		<repository>
+			<id>percival</id>
+			<name>Percival Nexus</name>
+			<url>http://nexus.percivaleng.com:8081/nexus/repository/maven-releases</url>
+		</repository>
     </distributionManagement>
 
 
